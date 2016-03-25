@@ -1,0 +1,13 @@
+﻿@model IEnumerable<MVC_TagHelper.Models.Product>
+
+<style type="text/css">
+    table, td {
+       border:double;
+      }
+</style>
+
+ 
+
+<table generate-rows="@Model.Count()" source-model="@Model">
+
+</table>
